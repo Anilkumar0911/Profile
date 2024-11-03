@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from devolin.dropletweb.com/demo/blog-rtl.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 Oct 2024 10:10:21 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devolin - قالب HTML للمحفظة الشخصية</title>
+
+    
+    <!-- ============ FAVICON ============ -->
+    <link rel="shortcut icon" href="favicon.png">
+    <!-- ============ FONTAWESOME ============ -->
+    <link rel="stylesheet" href="assets/vendor/css/all.min.css">
+    <!-- ============ SCROLLBAR ============ -->
+    <link rel="stylesheet" href="assets/vendor/css/OverlayScrollbars.min.css">
+    <!-- ============ CIRCLE PROGRESSBAR ============ -->
+    <link rel="stylesheet" href="assets/vendor/css/circle-progress.css">
+    <!-- ============ NUMBER COUNTER ============ -->
+    <link rel="stylesheet" href="assets/vendor/css/odometer.min.css">
+    <!-- ============ SLICK SLIDER ============ -->
+    <link rel="stylesheet" href="assets/vendor/css/slick.css">
+    <!-- ============ NICE SELECT ============ -->
+    <link rel="stylesheet" href="assets/vendor/css/nice-select.css">
+    <!-- ============ BOOTSTRAP ============ -->
+    <link rel="stylesheet" href="assets/vendor/css/bootstrap.min.css">
+    <!-- ============ CUSTOM STYLESHEET ============ -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style-rtl.css">
+    <!-- ============ SHARP MODE STYLESHEET ============ -->
+    <link id="sharpMode" rel="stylesheet" href="#">
+    <link id="darkMode" rel="stylesheet" href="#">
+</head>
+<body>
+    <div class="content-wrap3 inner-page">
+        <!-- PRELOADER START -->
+        <div class="preloader">
+            <img src="assets/images/loader.gif" alt="loading">
+        </div>
+        <!-- PRELOADER END -->
+
+
+        <!-- ============ SETTIGS SIDEBAR START ============ -->
+        <div class="sidebar-overlay">
+            <div class="sidebar">
+                <h3><span><i class="fa-regular fa-gear"></i> Settings</span> <button class="sidebar-close"><i class="fa-thin fa-xmark"></i></button></h3>
+                <div class="bottom">
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="shapeChange">
+                        <label class="form-check-label" for="shapeChange">Switch to Sharp mode</label>
+                    </div>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="themeChange">
+                        <label class="form-check-label" for="themeChange">Switch to Dark mode</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============ SETTIGS SIDEBAR END ============ -->
+
+
+        <!-- ============ HEADER SECTION START ============ -->
+        <div class="header">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-6">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img id="logo" src="assets/images/logo.png" alt="LOGO">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="nav-btn">
+                            <a href="blog.html" class="theme-btn">RTL</a>
+                            <a role="button" id="sidebar"><i class="fa-thin fa-gear"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============ HEADER SECTION END ============ -->
+
+
+        <!-- ============ BLOG SECTION START ============ -->
+        <div class="blog-details-page">
+            <div class="breadcrumb-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <ul>
+                                <li><a href="index.html"><i class="fa-regular fa-house"></i></a></li>
+                                <li>تفاصيل المدونة</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-10">
+                        <div class="blog-details">
+                            <div class="part-img">
+                                <img src="assets/images/blog-details.jpg" alt="Image">
+                            </div>
+                            <div class="part-txt">
+                                <h2 class="blog-title">دمج ReactJS في تطبيق Dojo القديم</h2>
+                                <ul>
+                                    <li><span><i class="fa-duotone fa-user-pen"></i></span>سوميا داغا</li>
+                                    <li><span><i class="fa-duotone fa-calendar"></i></span>١٦ ديسمبر ٢٠٢١</li>
+                                </ul>
+                                <p>نظرًا لأن التكنولوجيا تتحرك بسرعة ، فمن السهل الشعور بالتخلف عن الركب. هناك إصدار قديم من مكتبة JavaScript يجعل تطبيقك يعمل ببطء. تقضي معظم وقتك في تصحيح التعليمات البرمجية القديمة. يبدو أن واجهة المستخدم الخاصة بك قد تم إنشاؤها منذ سنوات ، ولكن ليس لديك الوقت لتحديثها.</p>
+                                <p>واجه فريقنا مؤخرًا كل هذه التحديات عندما كان منتجنا البالغ من العمر 10 سنوات يستخدم إصدارًا قديمًا من مجموعة أدوات Dojo. للانتقال إلى أحدث إصدار من Dojo ، احتجنا إلى إعادة كتابة الكود بالكامل بنموذج غير متزامن. يحتاج حلنا أيضًا إلى تحسين الأداء وتوفير تجربة واجهة مستخدم ثرية تتوافق مع سمة IBM Carbon.</p>
+                                <blockquote>
+                                    <p>بعد الكثير من البحث ، قررنا استخدام React JS بدلاً من الترقية إلى إصدار جديد من Dojo.</p>
+                                </blockquote>
+                                <p>بعد الكثير من البحث ، قررنا استخدام React JS بدلاً من الترقية إلى إصدار جديد من Dojo. يقدم منشور المدونة هذا ReactJS ، ويسلط الضوء على البحث الذي قمنا به عند مقارنة ReactJS مع لغات JavaScript أخرى ، ويشرح كيف قمنا بدمج ReactJS مع مكتبة Dojo الحالية.</p>
+                                <p>الحل: كان هدفنا تطوير صفحات جديدة باستخدام ReactJS ودمجها في تطبيق Dojo القديم الحالي. احتجنا أيضًا إلى إنشاء مكونات قابلة لإعادة الاستخدام من React من أجل تنفيذ تطبيق أحادي الصفحة بسرعة وترحيل تطبيقنا بالكامل صفحة بصفحة على المدى الطويل.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============ BLOG SECTION END ============ -->
+
+
+        <!-- ============ FOOTER SECTION START ============ -->
+        <div class="footer">
+            <div class="container">
+                <p class="text-center">&copy; جميع الحقوق محفوظة بواسطة <span>Devolin</span></p>
+            </div>
+        </div>
+        <!-- ============ FOOTER SECTION END ============ -->
+    </div>
+
+
+
+    <!-- ============ JQUERY ============ -->
+    <script src="assets/vendor/js/jquery-3.6.0.min.js"></script>
+    <!-- ============ SCROLLBAR ============ -->
+    <script src="assets/vendor/js/jquery.overlayScrollbars.min.js"></script>
+    <!-- ============ CIRCLE PROGRESSBAR ============ -->
+    <script src="assets/vendor/js/circle-progress.min.js"></script>
+    <!-- ============ NUMBER COUNTER ============ -->
+    <script src="assets/vendor/js/odometer.min.js"></script>
+    <!-- ============ SLICK SLIDER ============ -->
+    <script src="assets/vendor/js/slick.min.js"></script>
+    <!-- ============ NICE SELECT ============ -->
+    <script src="assets/vendor/js/jquery.nice-select.min.js"></script>
+    <!-- ============ BOOTSTRAP ============ -->
+    <script src="assets/vendor/js/bootstrap.bundle.min.js"></script>
+    <!-- ============ CUSTOM JS ============ -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/ltr.js"></script>
+</body>
+
+<!-- Mirrored from devolin.dropletweb.com/demo/blog-rtl.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 Oct 2024 10:10:21 GMT -->
+</html>
